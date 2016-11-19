@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/Pix/homePic.jpg</ImageUrl>
+    <NavigateUrl>~/Ass2/locked/About.aspx</NavigateUrl>
+    <Impressions>80</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Pix/adPic1.jpg</ImageUrl>
+    <NavigateUrl>~/Ass2/locked/About.aspx</NavigateUrl>
+    <Impressions>80</Impressions>
+  </Ad>
+  <Ad>
+    <ImageUrl>~/Pix/adPic2.jpg</ImageUrl>
+    <NavigateUrl>~/Ass2/locked/About.aspx</NavigateUrl>
+    <Impressions>80</Impressions>
+  </Ad>
+</Advertisements>

@@ -1,0 +1,38 @@
+﻿<asp:Image runat="server" ImageUrl="~/Pix/titlePic.PNG" skinid="titlePic" width="300px"/>
+<asp:Image runat="server" ImageUrl="~/Pix/pointLessPic.jpg" skinid="aboutPic" Width="300px"/>
+<asp:Image runat="server" ImageUrl="~/Pix/theTitlePic.jpg" SkinID="theTitlePic" width="1050px"/>
+<asp:Image runat="server" ImageUrl="~/Pix/homePic.jpg" skinid="homePic" width="900px"/>
+<asp:Image runat="server" ImageUrl="~/Pix/logo.PNG" skinid="logo" width="150px"/>
+
+<asp:Panel runat="server" SkinID="homePanel" CssClass="thePanel" HorizontalAlign="Center"/>
+<asp:Panel runat="server" SkinID="otherPanel" CssClass="thePanel" HorizontalAlign="Center"  BackColor="White"/>
+<asp:Panel runat="server" SkinID="subPanel" HorizontalAlign="Left" Width="900px"/>
+<asp:Panel runat="server" SkinID="codePanel" HorizontalAlign="Left" Width="900px" style="overflow-y:scroll;overflow-x:scroll;" Height="760px"/>
+
+<asp:Label runat="server" SkinID="pageTitle" CssClass="homeTitle"/>
+<asp:Label runat="server" SkinID="subTitle" CssClass="subTitle" BackColor="#CCDDFF"/>
+<asp:Label runat="server" SkinID="homeContent" CssClass="homeInfo"/>
+<asp:Label runat="server" SkinID="pageContent" CssClass="homeInfo"/>
+<asp:Label runat="server" SkinID="code" CssClass="homeInfo" Width="890px" />
+
+<asp:HyperLink runat="server" SkinID="link" CssClass="homeInfo"/>
+<asp:HyperLink runat="server" SkinID="boldLink" CssClass="homeInfo" Font-Bold="true"/>
+
+<asp:TextBox runat="server" SkinID="box" CssClass="box1"/>
+<asp:TextBox runat="server" SkinID="boxYear" Columns="5" CssClass="box1"/>
+<asp:TextBox runat="server" SkinID="boxAddr" Columns="35" placeholder="Please enter your address here." CssClass="box2"/>
+<asp:textBox SkinID="search" runat="server"  Columns="80" Font-Size="Large"/>
+
+<asp:RadioButtonList runat="server" SkinID="genRadio" RepeatDirection="Horizontal" RepeatLayout="Table"/>
+
+<asp:ListBox runat="server" SkinID="bldBox" Rows="5" CssClass="box1"/>
+
+<asp:CheckBox runat="server" SkinID="chk"/>
+
+<asp:DropDownList SkinID="StateList" runat="server" CssClass="box2"/>
+
+<asp:Button SkinID="confirmButton" runat="server" CssClass="bt1"/>
+
+<asp:TreeView runat="server" SkinID="treeView" ShowLines="True" CssClass="tree"/>
+
+<asp:AdRotator SkinID="AdRotator1" runat="server" width="900px"/>

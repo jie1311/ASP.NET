@@ -1,0 +1,126 @@
+﻿body {
+    font-family:Calibri;
+    background-color:white;
+    font-size:20px;
+}
+
+.hugeTitle {
+    font-size:32px;
+    font-family:Calibri;
+}
+
+.tab1 {
+    align-content:center;
+    vertical-align:top;
+    border-style:double;
+    background-color:white;
+    align-self:center;
+}
+
+.tab2 {
+    vertical-align:top;
+    border-style:hidden;
+    background-color:#99CCFF;
+}
+
+.homeTitle {
+    font-size:28px;
+    border-bottom:double;
+    border-color:#3399FF;
+}
+
+.subTitle {
+    font-family:Calibri;
+    font-size:24px;
+    font-weight:bold;
+    color:darkcyan;
+}
+
+.error {
+    color:red;
+    font-size:18px;
+    font-family:Calibri;
+}
+
+.homeInfo {
+    color:navy;
+    font-size:18px;
+}
+
+.userInfo 
+{
+    font-family:'Courier New';
+    border:groove;
+    border-color:blueviolet;
+    width:800px;
+}
+
+.MenuStaItm
+{
+  background-color: #CCCCFF;
+}
+
+.MenuStaHov
+{
+  background-color: #AAAAEE;
+}
+
+.MenuDynItm
+{
+  background-color: #AAAAEE;
+}
+
+.MenuDynHov
+{
+  background-color: #AAAAEE;
+}
+
+
+.titlePic
+{
+    align-self:center;
+    width:800px;
+}
+
+.the300Pic
+{
+    width:300px;
+}
+
+.the900Pic
+{
+    width:900px;
+}
+
+
+.thePanel
+{
+    width:900px;
+    
+}
+
+.box1
+{
+    border-bottom-style:initial;
+    font-family:Arial;
+    column-count:25;
+}
+
+.box2
+{
+    border-bottom-style:initial;
+    font-family:Arial;
+}
+
+.bt1
+{
+    font-family:Calibri;
+    font-size:22px;
+    background-color:#99CCFF;
+}
+
+.tree {
+    font-family:Calibri;
+    font-size:24px;
+    color:darkcyan;
+}

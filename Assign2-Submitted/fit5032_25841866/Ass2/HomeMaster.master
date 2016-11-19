@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" CodeFile="HomeMaster.master.cs" Inherits="HomeMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="~/Ass2/StyleSheet.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div align="center">
+            <table class="tab1">
+                <tr>
+                    <td align="center">
+                         <asp:Image runat="server" SkinID="logo"/>
+                         <asp:Image runat="server" SkinID="theTitlePic"/></td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <table class="tab2">
+                            <tr>
+                                <td valign="top">
+                                    <table class="tab2">
+                                        <tr>
+                                            <td align="left">
+                                                <asp:Menu StaticDisplayLevels="2" runat="server" DataSourceID="SiteMapDataSource1" StaticSubMenuIndent="25">
+                                                    <StaticMenuItemStyle CssClass="MenuStaItm" />
+                                                    <DynamicHoverStyle CssClass="MenuDynHov" />
+                                                    <DynamicMenuItemStyle CssClass="MenuDynItm" />
+                                                    <StaticHoverStyle CssClass="MenuStaHov" />
+                                                </asp:Menu>
+                                                <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <asp:Image runat="server" SkinID="titlePic"/>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center">
+                                                <asp:Calendar ID="cld1" runat="server" class="the300Pic" OnDayRender="cld1_DayRender" OnSelectionChanged="cld1_SelectionChanged"/>
+                                                <asp:AccessDataSource ID="DS7" runat="server" DataFile="~/App_Data/userdb.accdb" SelectCommand="SELECT * FROM [event]" />
+                                                <asp:Label ID="events" runat="server" Text="No Events Today." CssClass="homeInfo" />
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td valign="top">
+                                    <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                                        <PathSeparatorTemplate>
+                                            --> 
+                                        </PathSeparatorTemplate>
+                                    </asp:SiteMapPath>
+                                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" />
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                        <p class="homeInfo">Copyright 2015 Jie</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
